@@ -51,7 +51,7 @@ $ python3 gpiovalvemonitor/main.py | jq
 There's a Node.js script for ingesting the JSON from the previous command into InfluxDB:
 
 ```bash
-cat example.json | node infuxdb-ingest.js
+cat example.json | node influxdb-ingest.js
 ```
 
 The script requiress the `INFLUX_HOST`, `INFLUX_DATABASE`, `INFLUX_USERNAME` and `INFLUX_PASSWORD` environment 
@@ -60,7 +60,7 @@ variables to be defined.
 Combined, the two scripts can be run from cron every minute or so:
 
 ```bash
-*/10 * * * * python3 gpiovalvemonitor/main.py | node infuxdb-ingest.js
+*/10 * * * * python3 gpiovalvemonitor/main.py | node influxdb-ingest.js
 ```
 
 ## License

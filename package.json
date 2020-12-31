@@ -2,7 +2,7 @@
   "name": "gpio-valve-monitor",
   "version": "1.0.0",
   "description": "Utility for determining floor heating valve statuses through the GPIO pins on a Raspberry Pi or compatible device",
-  "main": "infuxdb-ingest.js",
+  "main": "influxdb-ingest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
