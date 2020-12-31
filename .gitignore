@@ -1,3 +1,4 @@
+node_modules
 venv
 .idea
 gpio-valve-monitor.iml

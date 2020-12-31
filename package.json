@@ -1,0 +1,22 @@
+{
+  "name": "gpio-valve-monitor",
+  "version": "1.0.0",
+  "description": "Utility for determining floor heating valve statuses through the GPIO pins on a Raspberry Pi or compatible device",
+  "main": "infuxdb-ingest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalle19/gpio-valve-monitor.git"
+  },
+  "author": "Sam Stenvall <neggelandia@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Jalle19/gpio-valve-monitor/issues"
+  },
+  "homepage": "https://github.com/Jalle19/gpio-valve-monitor#readme",
+  "dependencies": {
+    "influx": "^5.6.3"
+  }
+}
