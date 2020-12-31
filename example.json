@@ -2,13 +2,15 @@
   {
     "pin": 17,
     "octocoupler_port": "L8",
+    "pull_up": false,
     "roth_channel": 1,
-    "zone": "F\u00f6rr\u00e5d",
+    "zone": "Förråd",
     "state": 0
   },
   {
     "pin": 27,
     "octocoupler_port": "L7",
+    "pull_up": false,
     "roth_channel": 2,
     "zone": "Sovrum",
     "state": 0
@@ -16,13 +18,15 @@
   {
     "pin": 22,
     "octocoupler_port": "L6",
+    "pull_up": false,
     "roth_channel": 3,
-    "zone": "G\u00e4strum",
+    "zone": "Gästrum",
     "state": 0
   },
   {
     "pin": 5,
     "octocoupler_port": "L5",
+    "pull_up": false,
     "roth_channel": 4,
     "zone": "Bibliotek",
     "state": 0
@@ -30,6 +34,7 @@
   {
     "pin": 6,
     "octocoupler_port": "L4",
+    "pull_up": false,
     "roth_channel": 5,
     "zone": "Vardagsrum",
     "state": 0
@@ -37,6 +42,7 @@
   {
     "pin": 26,
     "octocoupler_port": "L3",
+    "pull_up": false,
     "roth_channel": 5,
     "zone": "Vardagsrum",
     "state": 0
@@ -44,6 +50,7 @@
   {
     "pin": 23,
     "octocoupler_port": "L2",
+    "pull_up": false,
     "roth_channel": 6,
     "zone": "Tambur / WC",
     "state": 0
@@ -51,6 +58,7 @@
   {
     "pin": 24,
     "octocoupler_port": "L1",
+    "pull_up": false,
     "roth_channel": 7,
     "zone": "Arbetsrum",
     "state": 0
@@ -58,15 +66,17 @@
   {
     "pin": 25,
     "octocoupler_port": "R4",
+    "pull_up": true,
     "roth_channel": 8,
-    "zone": "K\u00f6k",
-    "state": 1
+    "zone": "Kök",
+    "state": 0
   },
   {
     "pin": 16,
     "octocoupler_port": "R3",
+    "pull_up": true,
     "roth_channel": 9,
-    "zone": "Hj\u00e4lpk\u00f6k",
-    "state": 1
+    "zone": "Hjälpkök",
+    "state": 0
   }
 ]
