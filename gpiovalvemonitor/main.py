@@ -3,8 +3,8 @@ import json
 
 
 class ValveSensor(SmoothedInputDevice):
-    def __init__(self, pin=None, sample_rate=100, average=max):
-        super(ValveSensor, self).__init__(pin, sample_wait=1 / sample_rate, average=average)
+    def __init__(self, pin=None):
+        super(ValveSensor, self).__init__(pin, sample_wait=1 / 100, average=max)
         self._queue.start()
 
 
