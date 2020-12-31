@@ -9,12 +9,12 @@ class ValveSensor(SmoothedInputDevice):
 
 
 class SensorConfiguration(dict):
-    def __init__(self, pin, octocoupler_port, roth_channel, room_description):
+    def __init__(self, pin, octocoupler_port, roth_channel, zone):
         dict.__init__(self,
                       pin=pin,
                       octocoupler_port=octocoupler_port,
                       roth_channel=roth_channel,
-                      room_description=room_description)
+                      zone=zone)
 
 
 sensors_matrix = [
