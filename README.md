@@ -62,3 +62,7 @@ Combined, the two scripts can be run from cron every minute or so:
 ```bash
 */10 * * * * python3 gpiovalvemonitor/main.py | node infuxdb-ingest.js
 ```
+
+## License
+
+GNU GENERAL PUBLIC LICENSE Version 3
